@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-family: "Raleway";
+}
+header .logo{
+  width: 5rem;
+}
+header .logo img{
+  width: 100%;
+}
+header .navbar ul{
+  display: flex;
+  gap: 2rem; 
+}
+header .navbar ul li{
+  list-style: none;
+  font-size: 1rem;
+}
+header .navbar ul li a{
+  text-decoration: none;
+}
+header .navbar ul li a:hover{
+  opacity: 0.7;
+}
+header .navbar ul li a:active{
+  color: hsl(238, 22%, 44%);
+}
+.hero_section{
+  padding: 20px;
+}
+.hero_section_img{
+  width: 20rem;
+}
+.hero_section_img .img{
+  width: 100%;
+}
+.hero_section_infomation{
+  text-align: center;
+  padding: 1.2rem;
+}
+.hero_section_title{
+  margin-bottom: 2rem;
+  font-family: "Raleway";
+}
+.hero_section_info{
+  margin-bottom: 2rem;
+  font-family: "Open sans";
+}
+.sign_up{
+  width: 15rem;
+  height: 2.2rem;
+  margin-bottom: 1rem;
+}
+.get_started_btn{
+  padding: 0.5rem 5rem;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  font-family: "Raleway";
+}
+.main_content_section{
+  padding: 20px;
+  font-family: "Open sans";
+}
+.main_content_img{
+  width: 20rem;
+}
+.main_content_img .img{
+  width: 100%;
+}
+.main_content_heading{
+  text-align: center;
+  margin: 1rem;
+  font-family: "Raleway";
+}
+.main_content .content{
+  margin-bottom: 1rem;
+}
+.main_content_link{
+  text-align: center;
+}
+.main_content_link a{
+  color: hsl(170, 45%, 43%);
+  vertical-align: middle;
+  
+}
+.main_content_link img{
+  vertical-align: middle;
+}
+.main_testimonial{
+  margin: 0 3rem;
+  padding: 20px;
+  box-shadow: 3px 3px 10px 5px rgb(176, 176, 176);
+  margin-bottom: 3rem;
+  font-family: "Open sans";
+}
+
+.main_testimonial_content{
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+.main_testimonial .avatar{
+  width: 30px;
+  border-radius: 15px;
+}
+.main_testimonial .name{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.main_testimonial .name .title{
+  font-size: 0.5rem;
+}
+.access_section{
+  padding: 2.2rem;
+  text-align: center;
+  background-color: hsl(238, 22%, 44%);
+  color: white;
+}
+.access_infomation{
+  margin-bottom: 2rem;
+  font-family: "Open sans";
+}
+.access_title{
+  margin: 1rem;
+}
+.sign_up_for_free{
+  width: 15rem;
+  height: 2.2rem;
+  margin-bottom: 1rem;
+}
+.get_started_for_free_btn{
+  padding: 0.8rem 3.5rem;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+}
+.btn{
+  cursor: pointer;
+}
+.btn:hover{
+  opacity: 0.7;
+}
+.btn:active{
+  opacity: 0.5;
+}
+footer{
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+  font-family: "Open sans";
+}
+footer div{
+  margin-bottom: 2rem;
+}
+footer div p a{
+  text-decoration: none;
+  color: white;
+}
+footer div p a:hover{
+  color: hsl(224, 93%, 58%);
+}
+footer .social_media{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+footer div a i{
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+footer div a i:hover{
+  color: blue;
+  border: 1px solid blue;
+}
+
+@media only screen and (min-width: 1000px){
+  header .logo{
+    width: 15rem;
+  }
+  header .navbar ul {
+    gap: 5rem;
+  }
+  header .navbar ul li a{
+    font-size: 1.2rem;
+  }
+  .hero_section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse ;
+  }
+  .hero_section_img{
+    width: 50rem;
+  }
+  .hero_section_img .img{
+    width: 100%;
+  }
+  .hero_section_infomation{
+    text-align: left;
+    padding: 2rem;
+    width: 50rem;
+    font-size: 1.4rem;
+  }
+  .sign_up{
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.2rem;
+  }
+  .get_started_btn{
+    padding: 1rem 7rem;
+    background-color: hsl(224, 93%, 58%);
+    font-size: 1.2rem;
+  }
+  .main_content_section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+  }
+  .main_content{
+    padding: 2rem;
+    font-size: 1.8rem;
+    width: 50rem;
+  }
+  .main_content_heading{
+    text-align: left;
+    margin: 0px 0px 2rem 0px;
+    font-size: 2.5rem;
+  }
+  .main_content_link{
+    text-align: left;
+  }
+  .main_content_img{
+    width: 50rem;
+  }
+  .main_content_img .img{
+    width: 100%;
+  }
+  .main_testimonial{
+   width: 25rem;
+   height: 15rem;
+   padding: 2rem;
+  }
+  .main_testimonial_content{
+    font-size: 1rem;
+  }
+  .main_testimonial .name{
+    font-size: 1rem;
+  }
+  .main_testimonial .name .title{
+    font-size: .8rem;
+    font-weight: lighter;
+  }
+  .access_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12rem;
+  }
+  .access_infomation{
+    text-align: left;
+    width: 40rem;
+    font-size: 1.2rem;
+  }
+  .access_title{
+    font-size: 2.2rem;
+    margin: 1rem 0;
+
+  }
+  .get_started{
+    width: 50rem;
+    display: grid;
+  }
+  .sign_up_for_free{
+    width: 40rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+  .get_started_for_free_btn{
+    width: 20rem;
+    font-size: 1.2rem;
+  }
+  footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+  }
+  footer .get_in_touch p{
+    font-size: 1.2rem;
+    line-height: 2.5;
+  }
+  footer div p a{
+    line-height: 3;
+    font-size: 1.2rem;
+  }
+  footer div a i{
+    font-size: 1.5rem;
+    border-radius: 24px;
+    border: 1px solid white;
+  }
+}
